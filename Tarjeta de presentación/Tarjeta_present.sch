@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Librerias:CH552G U1
+L Tarjeta_present-rescue:CH552G-Librerias U1
 U 1 1 600C5722
 P 4350 2650
 F 0 "U1" H 4825 2765 50  0000 C CNN
