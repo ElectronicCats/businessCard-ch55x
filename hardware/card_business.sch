@@ -200,10 +200,10 @@ Wire Wire Line
 	2650 1400 2450 1400
 Wire Notes Line
 	3150 1950 450  1950
-Text Label 3000 3550 2    50   ~ 0
+Text Label 3050 3550 2    50   ~ 0
 RST
 Wire Wire Line
-	3000 3550 3450 3550
+	3050 3550 3450 3550
 Text Label 6450 3250 0    50   ~ 0
 UDM
 Text Label 6450 3400 0    50   ~ 0
@@ -348,9 +348,9 @@ Wire Wire Line
 	10500 1100 10150 1100
 Wire Wire Line
 	10150 1100 10150 1150
-NoConn ~ 3450 2950
-Text Label 6550 3850 0    50   ~ 0
+NoConn ~ 6200 3850
+Text Label 3150 2950 2    50   ~ 0
 PAD
 Wire Wire Line
-	6550 3850 6200 3850
+	3150 2950 3450 2950
 $EndSCHEMATC
