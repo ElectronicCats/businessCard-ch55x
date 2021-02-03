@@ -331,7 +331,7 @@ Wire Notes Line
 Wire Notes Line
 	9000 450  9000 4200
 $Comp
-L Connector:USB_A J2
+L card_business-rescue:USB_A-Connector J2
 U 1 1 600C62B1
 P 10150 1550
 F 0 "J2" H 10207 2017 50  0000 C CNN
