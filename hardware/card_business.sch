@@ -96,7 +96,7 @@ U 1 1 60104572
 P 1600 1400
 F 0 "SW1" H 1600 1215 50  0000 C CNN
 F 1 "Reset" H 1600 1306 50  0000 C CNN
-F 2 "Connectors:C455281" H 1600 1600 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 1600 1600 50  0001 C CNN
 F 3 "~" H 1600 1600 50  0001 C CNN
 	1    1600 1400
 	1    0    0    -1  
@@ -118,7 +118,7 @@ U 1 1 60108AA8
 P 10300 4100
 F 0 "SW2" H 10300 4385 50  0000 C CNN
 F 1 "Boot" H 10300 4294 50  0000 C CNN
-F 2 "Connectors:C455281" H 10300 4300 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 10300 4300 50  0001 C CNN
 F 3 "~" H 10300 4300 50  0001 C CNN
 	1    10300 4100
 	1    0    0    -1  
@@ -179,11 +179,11 @@ Wire Wire Line
 Wire Wire Line
 	10250 3150 10100 3150
 Text Label 9550 1450 0    50   ~ 0
-UDM
+UD-
 Wire Wire Line
 	9850 1450 9550 1450
 Text Label 9400 1550 2    50   ~ 0
-UDP
+UD+
 Text Notes 10850 900  2    98   ~ 0
 Conexión del disp USB\n
 Text Label 9500 3150 2    50   ~ 0
@@ -205,9 +205,9 @@ RST
 Wire Wire Line
 	3050 3550 3450 3550
 Text Label 6450 3250 0    50   ~ 0
-UDM
+UD-
 Text Label 6450 3400 0    50   ~ 0
-UDP
+UD+
 Text Label 6450 3700 0    50   ~ 0
 P3.3
 $Comp
@@ -321,7 +321,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 4100 9850 4100
 Text Label 9500 4100 2    50   ~ 0
-UDP
+UD+
 Wire Wire Line
 	9500 4100 9650 4100
 Text Notes 10800 3700 2    98   ~ 0
