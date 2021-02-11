@@ -4,6 +4,7 @@
 #endif
 
 #include "src/USBMassStorage.h"
+#include "src/TouchKey.h" //libreria para el touch key
 
 
 #define LED 33 //Pin 33 de la placa
@@ -67,12 +68,22 @@ __code File_Entry filesOnDrive [] = {
 
 __code uint8_t filesOnDriveCount = sizeof(filesOnDrive) / sizeof(File_Entry);
 
+
 void setup(){
   USBInit();
+
+  pinMode(LED,OUTPUT);
+  TouchKey_begin(1 << 2); //activando TIN2 (Pin 1.4)
 }
 
 void loop(){
-
+ TouchKey_Process();// Inicia el proceso del touch key
+ uint8_t presstouchkey = TouchKey_Get(); //lee si presionas el TK
+ if (presstouchkey){ 
+  digitalWrite(LED, HIGH); //si se presiona prende el LED
+ } else {
+  digitalWrite(LED, LOW); //mientras no sea pulsado el led estará apagado
+ } 
 }
 
 
